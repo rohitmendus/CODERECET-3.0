@@ -57,6 +57,7 @@ function App() {
         <AboutUs/>
         <Countdown/>
         <RefreshReboot/>
+        {/* Hidden sections */}
         {/* <PerksSection/>
         <Prize/>
         <Sponsorship/>

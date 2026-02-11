@@ -33,14 +33,7 @@ export default function RefreshReboot() {
           REBOOT <span style={{ color: "#C88D28" }}>SOLUTIONS</span>.
         </h1>
         <p className="text-custom-white mb-4 text-[18px] sm:text-[20px] font-satoshi_v ">
-          Great innovations start with fresh ideas. At{" "}
-          <span>CodeRecet 2.0</span>, we challenge you to think beyond limits,
-          break conventional patterns, and build solutions that create an
-          impact. This hackathon isn’t just about writing code—it’s about
-          transforming ideas into reality, solving real-world problems, and
-          collaborating with like-minded innovators. Whether you're a beginner
-          or an experienced coder, this is your platform to experiment, learn,
-          and push boundaries.{" "}
+          This text has been removed and replaced with just the header.
         </p>
         <p className="text-custom-white mb-4 text-[18px] sm:text-[20px] font-satoshi_v">
           <span>Rebooting solutions</span> means improving, adapting, and
