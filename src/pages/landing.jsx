@@ -263,7 +263,7 @@ function LandingPage() {
             }}
           />
           <div
-            className="bg-[#1a1a1a] border-2 border-custom-white rounded-xl p-6 w-[90vw] max-w-[500px] relative z-10"
+            className="bg-[#1a1a1a] border-2 border-[#E6F85A] rounded-xl p-6 w-[90vw] max-w-[500px] relative z-10"
             data-blendy-to="location"
           >
             <div>
@@ -303,7 +303,7 @@ function LandingPage() {
             }}
           />
           <div
-            className="bg-[#1a1a1a] border-2 border-custom-white rounded-xl p-6 w-[90vw] max-w-[400px] relative z-10"
+            className="bg-[#1a1a1a] border-2 border-[#E6F85A] rounded-xl p-6 w-[90vw] max-w-[400px] relative z-10"
             data-blendy-to="calendar"
           >
             <div>
