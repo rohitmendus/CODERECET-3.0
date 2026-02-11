@@ -227,17 +227,6 @@ function LandingPage() {
           </div>
         </div>
       </div>
-
-      {/* Devfolio Apply Button - Bottom */}
-      <div className="bg-custom-black flex flex-col items-center justify-center py-12 border-b border-custom-gray">
-        <img src={devfolioLogo} alt="DEVFOLIO LOGO" className="h-8 mb-6" />
-        <div
-          className="apply-button"
-          data-hackathon-slug="code-recet-3"
-          data-button-theme="light"
-          style={{ height: '44px', width: '312px' }}
-        ></div>
-      </div>
     </div>
   );
 }
