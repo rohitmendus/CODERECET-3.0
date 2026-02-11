@@ -4,10 +4,20 @@ import cube from "../assets/Cube.png";
 import logo from "../assets/Logo copy.png";
 import menu from "../assets/menu_white.svg";
 import close from "../assets/close_white.svg";
-import RegisterButton from "../components/RegisterButton";
 
 function LandingPage() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const words = [
     "CODE RECET",
     "CODE RECET",
@@ -91,11 +101,12 @@ function LandingPage() {
             {/* Right: Register Button */}
             <div className="flex-1 flex justify-end items-center gap-4">
               <div className="hidden sm:block">
-                <div className="rounded-full px-4 py-2 cursor-pointer hover:bg-opacity-10 transition-colors" style={{ border: '1px solid #E6F85A4D' }}>
-                  <span className="font-tactic_sans text-custom-white text-sm lg:text-base">
-                    Register Now - It's Free
-                  </span>
-                </div>
+                <div
+                  className="apply-button"
+                  data-hackathon-slug="code-recet-3"
+                  data-button-theme="light"
+                  style={{ height: '44px', width: '312px' }}
+                ></div>
               </div>
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -158,11 +169,12 @@ function LandingPage() {
                 </li>
                 {/* Mobile Register */}
                 <li className="text-left mt-8 pt-4">
-                  <div className="rounded-full px-4 py-2 cursor-pointer inline-block" style={{ border: '1px solid #E6F85A4D' }}>
-                    <span className="font-tactic_sans text-custom-white text-base">
-                      Register Now - It's Free
-                    </span>
-                  </div>
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="code-recet-3"
+                    data-button-theme="light"
+                    style={{ height: '44px', width: '312px' }}
+                  ></div>
                 </li>
               </ul>
             </div>

@@ -1,6 +1,6 @@
 export default function FigmaRegisterButton({ className = "" }) {
   const handleClick = () => {
-    window.open("https://code-recet-2.devfolio.co/application", "_blank");
+    window.open("https://code-recet-3.devfolio.co/application", "_blank");
   };
 
   return (

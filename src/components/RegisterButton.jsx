@@ -1,7 +1,7 @@
 export default function RegisterButton({ className = "" }) {
   const handleClick = () => {
     // Add registration logic here, for now just placeholder
-    window.open("https://code-recet-2.devfolio.co/application", "_blank");
+    window.open("https://code-recet-3.devfolio.co/application", "_blank");
   };
 
   return (
