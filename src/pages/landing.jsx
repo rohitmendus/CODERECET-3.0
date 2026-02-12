@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { Link } from "react-scroll";
 import { createBlendy } from "blendy";
 import cube from "../assets/Cube.png";
+import grid from "../assets/Grid.png";
 import logo from "../assets/Logo copy.png";
 import menu from "../assets/menu_white.svg";
 import close from "../assets/close_white.svg";
@@ -201,12 +202,22 @@ function LandingPage() {
             </div>
           </h1>
           
-          <img
-            className="z-20 -mt-20 lg:-mt-32"
-            src={cube}
-            alt="Cube"
-            style={{ width: '400px', maxWidth: '90vw' }}
-          />
+
+          <div className="relative flex items-center justify-center w-full" style={{ minHeight: '340px' }}>
+            <img
+              src={grid}
+              alt="Grid"
+              className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] w-[120vw] max-w-none pointer-events-none select-none z-10"
+              draggable="false"
+              style={{ minWidth: '600px', maxWidth: '1200px', opacity: 0.7 }}
+            />
+            <img
+              className="z-20 relative -mt-20 lg:-mt-32"
+              src={cube}
+              alt="Cube"
+              style={{ width: '400px', maxWidth: '90vw' }}
+            />
+          </div>
           
           <div className="absolute bottom-24 lg:bottom-28 w-full px-4 lg:px-20 flex justify-between items-center z-30">
             <div
