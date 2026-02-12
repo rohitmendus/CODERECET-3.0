@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./tiltcard.css";
+import logo from "../assets/logo.png";
 
 export default function OrbitCard({ title, text, rotate }) {
   return (
@@ -13,7 +14,9 @@ export default function OrbitCard({ title, text, rotate }) {
       <div className="card">
         <h3>{title}</h3>
 
-        <div className="logo">{"</>"}</div>
+        <div className="card-logo">
+          <img src={logo} alt="CODE reCET" />
+        </div>
 
         <p>{text}</p>
       </div>
