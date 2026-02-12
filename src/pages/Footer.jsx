@@ -45,8 +45,8 @@ function Footer() {
           </div>
           <div className="flex flex-col items-end w-full md:w-1/2 gap-6 font-tactic_sans">
             <div className="text-white text-lg mb-2 mt-2 md:mt-0">Hackathon Organized by :</div>
-            <img src={tinkerhub} className="w-48 h-auto mb-2" alt="Tinkerhub" />
-            <img src={iet} className="w-48 h-auto" alt="IET" />
+            <img src={tinkerhub} className="w-48 h-auto mb-2 filter invert brightness-100" alt="Tinkerhub" />
+            <img src={iet} className="w-48 h-auto filter invert brightness-100" alt="IET" />
           </div>
         </div>
       </div>
