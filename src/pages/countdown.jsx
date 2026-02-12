@@ -42,8 +42,7 @@ const Countdown = () => {
   return (
     <div
       id="countdown"
-      className="px-4 sm:px-8 lg:px-32 py-10 sm:py-16 lg:py-24 border-b border-custom-gray"
-      style={{ backgroundColor: '#1A1A1A' }}
+      className="bg-custom-black px-4 sm:px-8 lg:px-32 py-10 sm:py-16 lg:py-24 border-b border-custom-gray"
     >
       <div className="max-w-4xl mx-auto border-2 border-custom-gray rounded-2xl px-4 sm:px-8 lg:px-16 py-8 sm:py-12 lg:py-16">
         <div className="flex justify-center items-center gap-2 sm:gap-4 lg:gap-8">
