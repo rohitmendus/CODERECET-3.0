@@ -11,6 +11,7 @@ import Gallery from "./pages/gallery"
 import PerksSection from "./pages/perks"
 import RefreshReboot from "./pages/refreshreboot"
 import FAQ from "./pages/faq"
+import OurSponsors from "./pages/OurSponsors"
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <AboutUs/>
         <Countdown/>
         <RefreshReboot/>
+        <OurSponsors/>
         {/* Hidden sections */}
         {/* <PerksSection/>
         <Prize/>
